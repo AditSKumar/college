@@ -16,9 +16,6 @@ html
   list-style: none;
 }
 
-div {
-}
-
 a{
   text-decoration: none;
   color:blue;
@@ -186,16 +183,11 @@ footer{
   background-color: #000000;
 }
 
-.parah{
-  color: #fff;
-  display: block;
-}
-
 .butn{
    padding: 15px 30px;
    cursor: pointer;
    outline: none;
-   background-color: #rgb(219, 232, 233);
+   background-color: rgb(219, 232, 233);
    border: 1px solid #111111;
    color: #111111;
    font-family: 'Century Gothic';
@@ -296,4 +288,15 @@ footer input, textarea{
 footer textarea{
   display: block;
   margin: 30px auto 0;
+}
+
+.parah{
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.parah button{
+  margin-top: 5%;
 }
